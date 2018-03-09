@@ -7,7 +7,24 @@ opacity: 0.9;
 text-align: center;
 }
 .header {
-
+height: 69px;
+border-bottom: 1px solid seashell;
+display: fixed;
+}
+.header ul {
+  list-style: none;
+  float: right;
+}
+.header li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: underline;
+  padding-right: 10px;
+}
+.header img {
+  height: 50px;
+  margin-left: 10px;
+  float: left;
 }
 .maincontent {
 

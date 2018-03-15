@@ -37,3 +37,23 @@ nav {
 nav a {
   padding-right: 15px;
 }
+main {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  margin: 10px;
+}
+#mission-text {
+  background-color: black;
+}
+#mission-text h2 {
+  font-size: 36px;
+}

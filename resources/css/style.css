@@ -23,6 +23,9 @@ main {
   display: block;
   padding-top: 60px;
 }
+h2 {
+  font-size: 36px;
+}
 .logo {
   flex: 1;
   padding-top: 10px;
@@ -59,16 +62,11 @@ nav a {
 #mission-text {
   background-color: black;
 }
-#mission-text h2 {
-  font-size: 36px;
-}
 #featured {
   padding-top: 70px;
   margin-bottom: 55px;
 }
-#featured h2 {
-  font-size: 36px;
-}
+#featured
 .image-container {
   display: flex;
   justify-content: center;
@@ -83,4 +81,35 @@ nav a {
 }
 .blocks {
   width: 100%;
+}
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+}
+.location-heading {
+  background-color: transparent;
+}
+.location-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-top: 15px;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 285px;
+  opacity: 1;
+}
+.center {
+  margin-left: 40px;
+  margin-right: 40px;
 }
